@@ -505,6 +505,11 @@ a {
   /* display: flex; */
 }
 
+.contactContent a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .contactContent .row {
   display: flex;
   height: 65px;
@@ -525,10 +530,10 @@ a {
 .contactContent .info .subTitle {
   color: var(--primary-text);
 }
-.contactContent .info .subTitle a {
+/* .contactContent .info .subTitle a {
   text-decoration: none !important;
   color: var(--link);
-}
+} */
 .contactContent .info .subTitle a:hover {
   text-decoration: underline !important;
 }
