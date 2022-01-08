@@ -453,6 +453,10 @@ a {
   border: 1px solid var(--secondary-background);
   outline: none;
 }
+.fab {
+  color: var(--primary-1);
+  margin: 10px;
+}
 .git {
   padding: 100px 0;
   background-color: var(--secondary-background);
