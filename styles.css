@@ -234,12 +234,13 @@ a {
 .contact {
   font-family: "Poppins", sans-serif;
   padding: 120px 0;
-  background-color: var(--primary-background);
+  background-color: var(--secondary-background);
 }
 .about .title,
 .projects .title,
 .contact .title,
-.git .title {
+.git .title,
+.techStackLogos .title {
   position: relative;
   font-family: "Ubuntu", sans-serif;
   font-size: 40px;
@@ -252,7 +253,8 @@ a {
 .about .title::before,
 .projects .title::before,
 .contact .title::before,
-.git .title::before {
+.git .title::before,
+.techStackLogos .title::before {
   content: "";
   position: absolute;
   bottom: 15px;
@@ -330,7 +332,10 @@ a {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  background-color: var(--primary-background);
+  color: var(--primary-text);
   /* margin: auto; */
+  padding: 100px 0;
   justify-content: center;
 }
 .techStackLogo {
@@ -359,7 +364,7 @@ a {
 }
 .projects {
   font-family: "Poppins", sans-serif;
-  background-color: var(--primary-background);
+  background-color: var(--secondary-background);
   color: var(--primary-text);
 }
 
@@ -453,13 +458,13 @@ a {
   border: 1px solid var(--secondary-background);
   outline: none;
 }
-.fab {
+.projectsDesc .fab {
   color: var(--primary-1);
   margin: 10px;
 }
 .git {
   padding: 100px 0;
-  background-color: var(--secondary-background);
+  background-color: var(--primary-background);
   color: var(--primary-text);
 }
 .git .title::before {
@@ -478,7 +483,7 @@ a {
 
 .contactContent {
   margin: auto;
-  width: 70%;
+  width: 100%;
   color: var(--primary-text);
 }
 .contactContent .column {
@@ -1167,12 +1172,13 @@ text.ContributionCalendar-label {
   .about .title,
   .projects .title,
   .contact .title,
-  .git .title {
+  .git .title,
+  .techStackLogos .title {
     font-size: 35px;
   }
   .projects .title::before,
   .contact .title::before,
-  .git .title::before {
+  .git .title::before .techStackLogos .title::before {
     width: 200px;
   }
   .about .title::before {
@@ -1191,13 +1197,15 @@ text.ContributionCalendar-label {
   .about .title,
   .projects .title,
   .contact .title,
-  .git .title {
+  .git .title,
+  .techStackLogos .title {
     font-size: 30px;
   }
   .about .title::before,
   .projects .title::before,
   .contact .title::before,
-  .git .title::before {
+  .git .title::before,
+  .techStackLogos .title::before {
     width: 150px;
   }
 }
