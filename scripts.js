@@ -102,7 +102,12 @@ loop();
 //   });
 // });
 
+// default dark mode
+
+localStorage.setItem("darkMode", JSON.stringify(true));
+
 //localStorage logic for dark darkMode
+
 let darkMode = JSON.parse(localStorage.getItem("darkMode")) || false;
 const checkBox = document.querySelector("#checkbox");
 checkBox.checked = darkMode;

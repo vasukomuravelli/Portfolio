@@ -434,8 +434,16 @@ a {
   /* padding-bottom: 20p; */
   height: 105px;
 }
+.icon-mongodb,
+.icon-heroku,
+.icon-database {
+  color: var(--primary-2);
+  margin-left: 5px;
+}
 .projectsButton {
   transition: all 0.5s ease;
+  display: flex;
+  justify-content: space-evenly;
 }
 .projectsButton button {
   padding: 10px;
