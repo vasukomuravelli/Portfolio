@@ -436,7 +436,8 @@ a {
 }
 .icon-mongodb,
 .icon-heroku,
-.icon-database {
+.icon-database,
+.iconify {
   color: var(--primary-2);
   margin-left: 5px;
 }
